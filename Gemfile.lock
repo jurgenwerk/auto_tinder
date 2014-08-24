@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:matixmatix/tinder_pyro.git
+  remote: git://github.com/matixmatix/tinder_pyro.git
   revision: 50324e314505858e983344a7d5cf260687da2b8a
   specs:
     tinder_pyro (0.0.1)
