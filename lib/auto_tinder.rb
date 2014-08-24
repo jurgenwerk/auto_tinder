@@ -8,7 +8,7 @@ module Clockwork
     1.upto(5) do
       results = client.get_nearby_users.parsed_response["results"]
       if results
-        ids = results.map{ |match| match["_id"]}
+        ids = results.map{ |match| match["_id"] }
         ids.each do |id| 
           client.like(id)
           puts "liked #{id} \n"
