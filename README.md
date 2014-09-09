@@ -7,6 +7,7 @@
 - Automatically and periodically likes everyone in Tinder based on your discovery preferences
 
 ## Usage:
+- Add FACEBOOK_ID and FACEBOOK_TOKEN to your ENV (obtainable with Charles.app HTTP proxy and installing an SSL certificate on your phone - see <a href="http://timrogers.uk/2014/07/12/discovering-private-apis-with-charles-app/">this article</a> for help)
 - Development
 ```
 bundle install
