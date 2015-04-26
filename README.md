@@ -14,3 +14,9 @@ bundle install
 bundle exec clockwork lib/auto_tinder.rb
 ```
 - Production (Heroku): create a new Heroku app, set FACEBOOK_ID and FACEBOOK_TOKEN config vars and assign one (free) dyno to the auto_tinder process
+
+## Changing location:
+Run:
+```
+LAT="12.34" LNG="34.56" bundle exec rake update_location
+```
